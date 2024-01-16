@@ -7,6 +7,10 @@
   font-family: "Mulish", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+body {
+  font-size: 100%; /* or 16px, which is the default */
+}
+
 /* shared Styles */
 .centered-paragraph {
   text-align: center;
@@ -18,7 +22,7 @@
   color: #131318;
   text-align: center;
   font-family: Mulish;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
@@ -31,6 +35,9 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+nav svg {
+  display: none;
+}
 nav .logo {
   display: flex;
   justify-content: center;
@@ -41,7 +48,7 @@ nav .logo {
 nav .logo-title {
   color: #131318;
   font-family: Mulish;
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -49,7 +56,7 @@ nav .logo-title {
 nav .logo .travel {
   color: #ff5400;
   font-family: Mulish;
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -89,7 +96,7 @@ li.active a {
   text-align: center;
   padding: 106px 287px 24px 310px;
   color: #fff;
-  font-size: 64px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -99,7 +106,7 @@ li.active a {
   text-align: center;
   max-width: 676px;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
@@ -160,7 +167,7 @@ main {
 }
 .title-text {
   color: #131318;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   font-family: Mulish;
   margin-bottom: 24px;
@@ -168,7 +175,7 @@ main {
 .popular-tour-text p {
   width: 577px;
   color: rgba(19, 19, 24, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 162.5%;
   margin-bottom: 24px;
@@ -176,7 +183,7 @@ main {
 .popular-tour-text li {
   color: rgba(19, 19, 24, 0.7);
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
@@ -192,10 +199,11 @@ main {
   color: #fff;
   text-align: center;
   font-family: Mulish;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   border: 0px;
 }
+
 /* popular-tours section style End */
 .destination-img-container {
   display: flex;
@@ -206,6 +214,9 @@ main {
 .image-card {
   position: relative;
 }
+.image-card img{
+
+}
 .centered-text {
   position: absolute;
   top: 50%;
@@ -213,7 +224,7 @@ main {
   text-align: center;
   transform: translate(-50%, -50%);
   color: white; /* Adjust text color as needed */
-  font-size: 24px; /* Adjust font size as needed */
+  font-size: 1.5rem; /* Adjust font size as needed */
   font-weight: bold; /* Adjust font weight as needed */
 }
 .why-choose-us {
@@ -247,7 +258,7 @@ main {
 .card-h5 {
   color: #131318;
   font-family: Mulish;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -256,7 +267,7 @@ main {
 .card-p {
   color: #5a5a5d;
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
@@ -280,6 +291,7 @@ main {
 .perfect-place {
   display: flex;
   margin-top: 100px;
+  gap:28px
 }
 .perfect-place-video {
   border-radius: 16px;
@@ -304,7 +316,7 @@ main {
 .perfect-place-text li {
   color: rgba(19, 19, 24, 0.7);
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
@@ -320,7 +332,7 @@ main {
   color: #fff;
   text-align: center;
   font-family: Mulish;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   border: 0px;
 }
@@ -361,7 +373,7 @@ main {
   background-size: cover;
 }
 .rectangle-card-1 {
-  margin: 50px 56px 56px 535px;
+  margin: 4% 4.58% 4.58% 45%;
   width: 479px;
   height: 289px;
   padding: 52px 50px 63px 77px;
@@ -395,7 +407,7 @@ main {
 .card-body-details h3 {
   color: #131318;
   font-family: Mulish;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -405,7 +417,7 @@ main {
   width: 452px;
   color: #5a5a5d;
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
@@ -414,12 +426,12 @@ main {
 .card-body-details h5 {
   color: #ff5400;
   font-family: Mulish;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
 }
-.btn-primary {
+.btn-secondary {
   margin-top: 38px;
   width: 150px;
   height: 52px;
@@ -428,7 +440,7 @@ main {
   color: #fff;
   text-align: center;
   font-family: Mulish;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   border: 0;
 }
@@ -438,6 +450,7 @@ main {
   gap: 24px;
 }
 .newsletter-text {
+  width: 44%;
   padding: 40px;
   border-radius: 16px;
   border: 1px solid #ff5400;
@@ -445,7 +458,7 @@ main {
 .newsletter-text h5 {
   color: #131318;
   font-family: Mulish;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 16px;
 }
@@ -454,7 +467,7 @@ main {
   width: 350px;
   color: #5a5a5d;
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
@@ -477,7 +490,7 @@ main {
   color: #fff;
   text-align: center;
   font-family: Mulish;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -504,7 +517,7 @@ main {
 .saving-details h4 {
   text-align: center;
   color: #fff;
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -513,7 +526,7 @@ main {
   margin: 20px;
   color: #fff;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -550,7 +563,7 @@ footer .logo {
 footer .logo-title {
   color: #131318;
   font-family: Mulish;
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -558,7 +571,7 @@ footer .logo-title {
 footer .logo .travel {
   color: #ff5400;
   font-family: Mulish;
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -571,30 +584,254 @@ footer .logo .travel {
   margin-top: 50px;
   color: #131318;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
 }
 
-
 /* Responsive styles for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0px 0px;
+  }
+  /* shared style */
+  .centered-paragraph {
+    width: 309px;
+    font-size: 14px;
+  }
+  .centered-heading {
+    font-size: 20px;
+  }
+
+  nav li {
+    display: none;
+  }
   header {
-    flex-direction: column;
-    text-align: center;
+    max-width: 100%;
   }
-
-  ul {
-    margin-top: 20px;
-    justify-content: center;
+  nav {
+    padding: 0px 20px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 10px 20px;
   }
-
-  ul li {
-    margin: 0 10px;
+  nav svg {
+    display: block;
   }
-
+  .logo {
+    display: flex;
+    flex-direction: row;
+  }
+  nav .logo-title {
+    font-size: 21.543px;
+  }
+  nav .logo .travel {
+    font-size: 21.543px;
+  }
   .banner {
-    margin-top: 20px;
+    max-width: 90%;
+    height: 520px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .banner h1 {
+    padding: 8.5% 19% 3% 19%;
+    color: #fff;
+    font-size: 22px;
+  }
+  .banner p {
+    padding: 8px 16px 22px 16px;
+    width: 300px;
+    font-size: 14px;
+  }
+  form {
+    flex-direction: column;
+    margin: 0px 20px;
+  }
+  form input[type="text"] {
+    width: 255px;
+    height: 52px;
+  }
+  select {
+    width: 295px;
+    height: 52px;
+  }
+  .find-btn {
+    width: 295px;
+    height: 52px;
+  }
+  .newsletter {
+    flex-direction: column;
+    gap: 24px;
+    max-width: 90%;
+    margin: 24px 5%;
+  }
+  .popular-tours{
+    gap: 24px;
+    max-width: 90%;
+    flex-direction: column;
+    margin: 10px 0%;
+  }
+  .popular-tour-text .title-text {
+    font-size: 20px;
+  }
+  .popular-tour-text p {
+    font-size: 14px;
+    width: 335px;
+  }
+  .popular-tour-text li {
+    font-size: 14px;
+  }
+  .popular-tour-text .read-more {
+    font-size: 20px;
+  }
+  .popular-tour-img img {
+    width: 335px;
+    height: 342px;
+  }
+  .image-card img {
+    width: 335px;
+    height: 176px;
+  }
+  .centered-text {
+    font-size: 20px;
+  }
+  .perfect-place-video {
+  
+    width: 335px;
+    height: 200px;
+  }
+  .perfect-place {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .perfect-place-video video {
+    width: 340px;
+    height: 200px;
+  }
+  .perfect-place-text .title-text {
+    font-size: 20px;
+  }
+  .perfect-place-text P {
+    width: 335px;
+    font-size: 14px;
+  }
+  .perfect-place-text li {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 14px;
+    font-size: 14px;
+  }
+  .btn-praimary {
+    font-size: 20px;
+  }
+  .newsletter {
+    flex-direction: column;
+  }
+  .newsletter-text {
+    padding: 25px;
+  }
+  .newsletter-text h5 {
+    font-size: 20px;
+  }
+  .newsletter-text p {
+    width: 270px;
+    font-size: 14px;
+  }
+  .newsletter-text input[type="text"] {
+    width: 221px;
+    height: 52px;
+  }
+  .newsletter-img {
+    width: 335px;
+    height: 300px;
+  }
+  .subscribe {
+    margin-top: 20;
+    width: 268px;
+    height: 52px;
+  }
+  .newsletter-img {
+    width: 335px;
+    height: 300px;
+  }
+  .saving-details {
+    width: 214.023px;
+    height: 79.268px;
+    bottom: 29px;
+    right: 3px;
+    margin-top: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .saving-details p {
+    margin: 10px;
+    font-size: 15.854px;
+  }
+  .saving-details h4 {
+    font-size: 21.138px;
+  }
+  .rectangle-1 {
+    width: 100%;
+    height: 500px;
+  }
+  .rectangle-card-1 {
+    margin: 187px 26px 27px 22px;
+    width: 258px;
+    height: 217px;
+    padding: 26px 24px 26px 24px;
+  }
+  .rectangle-card-2 {
+    margin: 187px 26px 27px 22px;
+    width: 258px;
+    height: 217px;
+    padding: 26px 24px 26px 24px;
+  }
+  /* card style */
+  .card-header-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+  .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .card-body-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .card-body-details p {
+    width: 254px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .card-body-details h5 {
+    font-size: 16px;
+  }
+  .btn-secondary {
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .footer {
+    width: 84%;
+    padding: 4.6% 12% 4.6% 10%;
+  }
+  footer .logo-title {
+    font-size: 21.543px;
+  }
+  footer .logo .travel {
+    font-size: 21.543px;
   }
 }
